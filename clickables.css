@@ -1,0 +1,12 @@
+*{
+    font-family: sans-serif;
+}
+
+.clickables1:hover {
+    font-weight: bold;
+    color: black;
+}
+
+.clickables2:hover{
+    font-weight: bold;
+}
