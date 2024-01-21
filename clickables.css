@@ -3,9 +3,25 @@
 }
 
 .Clickables1:hover {
-    opacity: 80%;
+    opacity: 85%;
+}
+
+.Clickables2 {
+    color: white;
 }
 
 .Clickables2:hover {
-    font-weight: bold;
+    color: rgb(33, 131, 33);
+}
+
+.Clickables3 {
+    color: rgba(0, 128, 0, 0);
+}
+
+.Clickables3:hover {
+    color: white;
+}
+
+.Clickables4:hover {
+    opacity: 75%;
 }
