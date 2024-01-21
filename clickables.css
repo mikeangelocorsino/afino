@@ -2,6 +2,10 @@
     font-family: sans-serif;
 }
 
-.Clickables:hover {
+.Clickables1:hover {
+    opacity: 80%;
+}
+
+.Clickables2:hover {
     font-weight: bold;
 }
