@@ -1,0 +1,59 @@
+/*----------global Fonts----------*/
+*{
+    font-family: sans-serif;
+}
+
+
+/*----------navbar/footer color for texts & background----------*/
+.Darkbluetext {
+    color: #1a1f71;
+}
+
+.Darkbluebackground {
+    background-color: #1a1f71;
+}
+
+.Navbaropacity {
+    opacity: 95%;
+}
+
+
+/*----------all content colors for texts & background----------*/
+.Bluetext {
+    color: #00308F;
+}
+
+.Bluebackground {
+    background-color: #00308F;
+}
+
+.Bluebackground:hover {
+    background-color: #00308F;
+}
+
+
+/*----------all clickables & hovers css----------*/
+.Clickables1:hover {
+    opacity: 85%;
+    color: #00308F;
+}
+
+.Clickables2 {
+    color: white;
+}
+
+.Clickables2:hover {
+    color: #00308F;
+}
+
+.Clickables3 {
+    color: #00308F;
+}
+
+.Clickables3:hover {
+    color: white;
+}
+
+.Clickables4:hover {
+    opacity: 80%;
+}
