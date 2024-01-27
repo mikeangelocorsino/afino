@@ -1,4 +1,4 @@
-/*----------global Fonts----------*/
+/*----------global fonts----------*/
 *{
     font-family: sans-serif;
 }
@@ -55,5 +55,6 @@
 }
 
 .Clickables4:hover {
-    opacity: 80%;
+    color: white;
+    background-color: #00308F;
 }
