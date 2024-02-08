@@ -13,6 +13,8 @@
 
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
   <link rel="stylesheet" href="style.css">
 
   <title>Transaction Form</title>
@@ -47,7 +49,8 @@
 
     <div class="container col-md-12 Bluetext text-center">
       <b>
-        <p>Note: To proceed transaction please fill up all the details below.</p>
+        <p>Note: To proceed transaction please fill up all the details below. <i class="bi bi-exclamation-circle"></i>
+        </p>
       </b>
     </div>
     <br><br>
@@ -74,7 +77,7 @@
 
       <div class="form-group col-md-7"><br><br>
         <label for="input4">S.E.C. Reg. No.:</label>
-        <input type="number" class="form-control" id="input4" required>
+        <input type="tel" class="form-control" id="input4" required>
         <div class="invalid-feedback">Please fill up the detail.</div>
       </div>
 
@@ -106,7 +109,8 @@
 
       <div class="form-group col-md-6"><br><br>
         <label for="file">TRANSACTION REQUIREMENTS</label>
-        <label for="file"><b class="Bluetext">Instruction:</b>Please upload the following requirements.</label><br>
+        <label for="file"><b class="Bluetext">Instruction:</b>Please upload the following requirements. <i
+            class="bi bi-upload"></i></label><br>
 
         (1) Business Permit
         <input type="file" class="form-control-file" id="file1" name="file1[]" multiple required><br>
@@ -121,7 +125,8 @@
 
       <div class="form-group col-md-6"><br><br>
         <label for="file">FORM OF ORGANIZATION</label>
-        <label><b class="Bluetext">Instruction:</b> Please choose type of organization.</label><br>
+        <label><b class="Bluetext">Instruction:</b> Please choose type of organization. <i
+            class="bi bi-check2-square"></i></label><br>
 
         <div class="form-check"><br>
           <input class="form-check-input" type="checkbox" value="checkbox1" id="checkbox1">
@@ -150,14 +155,15 @@
         <input class="form-check-input" type="checkbox" name="cbox" id="cbox" required>
         <label class="form-check-label" for="cbox">
           I agree to the <a href="terms.html"><b class="Bluetext">Terms & Conditions</b></a> and <a
-            href="privacy.html"><b class="Bluetext">Privacy Policy</b></a>.
+            href="privacy.html"><b class="Bluetext">Privacy Policy.</b></a> <i class="bi bi-shield-lock"></i>
         </label>
         <div class="invalid-feedback">Please read the terms & condition and privacy policy.</div>
       </div>
 
       <div class="form-group"><br><br>
-        <button type="submit" class="btn Bluebackground text-white Clickables1">Submit</button>
-        <button type="reset" class="btn btn-secondary">Reset</button>
+        <button type="submit" class="btn Bluebackground text-white Clickables1">Submit <i
+            class="bi bi-send"></i></button>
+        <button type="reset" class="btn btn-secondary">Reset <i class="bi bi-arrow-clockwise"></i></button>
       </div>
     </form>
   </div>
