@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+
+  <title>Transaction Form</title>
+</head>
+<body>
+
+    
+<br><br><br><br><br>
+      <div class="container-lg bg-body-secondary p-5">
+
+        <header class="container-fluid">
+            <div class="row align-items-center">
+              
+              <div class="col-md-2">
+              </div>
+        
+              <div class="col-md-2 text-center">
+                <img src="pics/logo.png" class="img-fluid" height="150" width="150" alt="Image">
+              </div>
+        
+              <div class="col-md-4 text-center">
+                <h5><b>ASSOCIATION OF FINANCIAL INSTITUTIONS OF NEGROS OCCIDENTAL (AFINO)</b></h5>
+              </div>
+        
+              <div class="col-md-4"> 
+              </div>
+        
+            </div>
+          </header>
+          <br><br>
+  
+        <div class="container col-md-12 Bluetext text-center">
+          <b>
+              <p>Note: To proceed transaction please fill up all the details below.</p>
+            </b>
+        </div>
+        <br><br>
+
+  <form id="myForm" class="needs-validation row" novalidate>
+    
+    <div class="form-group col-md-8">
+      <label for="input1"><b>Name of Firm:</b></label>
+      <input type="text" class="form-control" id="input1" required>
+      <div class="invalid-feedback">Please fill up the detail.</div>
+    </div>
+
+    <div class="form-group col-md-4">
+        <label for="input2">Tel. No.:</label>
+        <input type="tel" class="form-control" id="input2" required>
+        <div class="invalid-feedback">Please fill up the detail.</div>
+      </div>
+
+      <div class="form-group col-md-12">
+        <label for="input3">Location:</label>
+        <input type="text" class="form-control" id="input3" required>
+        <div class="invalid-feedback">Please fill up the detail.</div>
+      </div>
+
+      <div class="form-group col-md-7"><br><br>
+        <label for="input4">S.E.C. Reg. No.:</label>
+        <input type="number" class="form-control" id="input4" required>
+        <div class="invalid-feedback">Please fill up the detail.</div>
+      </div>
+
+      <div class="form-group col-md-5"><br><br>
+        <label for="input5">Date Registered:</label>
+        <input type="date" class="form-control" id="input5" required>
+        <div class="invalid-feedback">Please fill up the detail.</div>
+      </div>
+
+      <div class="form-group col-md-7">
+        <label for="input6">Name of the Owner/Manager:</label>
+        <input type="text" class="form-control" id="input6" required>
+        <div class="invalid-feedback">Please fill up the detail.</div>
+      </div>
+
+      <div class="form-group col-md-5">
+        <label for="input7">Date of Birth:</label>
+        <input type="date" class="form-control" id="input7" required>
+        <div class="invalid-feedback">Please fill up the detail.</div>
+      </div>
+
+      <div class="form-group  col-md-12"><br><br>
+        <label for="input8">Officers of the Firm:</label>
+        <input type="text" class="form-control" id="input8" required>
+        <input type="text" class="form-control" id="input8" required>
+        <input type="text" class="form-control" id="input8" required>
+        <div class="invalid-feedback">Please fill up the detail.</div>
+      </div>
+
+    <div class="form-group col-md-6"><br><br>
+        <label for="file">TRANSACTION REQUIREMENTS</label>
+        <label for="file"><b class="Bluetext">Instruction:</b>Please upload the following requirements.</label><br>
+        
+        (1) Business Permit
+        <input type="file" class="form-control-file" id="file1" name="file1[]" multiple required><br>
+        
+        (2) BIR Certificate of Registration
+        <input type="file" class="form-control-file" id="file2" name="file2[]" multiple required><br>
+        
+        (3) SEC Registration
+        <input type="file" class="form-control-file" id="file3" name="file3[]" multiple required><br>
+        <div class="invalid-feedback">Please upload the requirements above.</div>
+      </div>
+
+      <div class="form-group col-md-6"><br><br>
+        <label for="file">FORM OF ORGANIZATION</label>
+        <label><b class="Bluetext">Instruction:</b> Please choose type of organization.</label><br>
+        
+        <div class="form-check"><br>
+          <input class="form-check-input" type="checkbox" value="checkbox1" id="checkbox1">
+          <label class="form-check-label" for="checkbox1">
+            Single Proprietorship
+          </label>
+        </div><br>
+  
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="checkbox2" id="checkbox2">
+          <label class="form-check-label" for="checkbox1">
+            Partnership
+          </label>
+        </div><br>
+  
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="checkbox3" id="checkbox3">
+          <label class="form-check-label" for="checkbox1">
+            Corporation
+          </label>
+        </div>
+  
+      </div>
+
+      <div class="form-check"><br><br>
+        <input class="form-check-input" type="checkbox" name="cbox" id="cbox" required>
+        <label class="form-check-label" for="cbox">
+          I agree to the <a href="terms.html"><b class="Bluetext">Terms & Conditions</b></a> and <a href="privacy.html"><b class="Bluetext">Privacy Policy</b></a>.
+        </label>
+        <div class="invalid-feedback">Please read the terms & condition and privacy policy.</div>
+      </div>
+
+    <div class="form-group"><br><br>
+      <button type="submit" class="btn Bluebackground text-white Clickables1">Submit</button>
+      <button type="reset" class="btn btn-secondary">Reset</button>
+    </div>
+  </form>
+</div>
+<br><br><br><br><br>
+
+
+
+<script>
+  // JavaScript for form validation using Bootstrap's built-in classes
+  (function() {
+    'use strict';
+    window.addEventListener('load', function() {
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.getElementsByClassName('needs-validation');
+      // Loop over them and prevent submission
+      var validation = Array.prototype.filter.call(forms, function(form) {
+        form.addEventListener('submit', function(event) {
+          if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    }, false);
+  })();
+</script>
+
+</body>
+</html>
